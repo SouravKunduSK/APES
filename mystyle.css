@@ -1,0 +1,49 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: url('Register as Seller.jpg');
+    background-size: cover;
+    position: absolute;
+    font-family: Maven Pro;
+}
+.wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0 ,0 ,0.9);
+    box-sizing: border-box;
+    padding: 40px;
+    color: rgb(122, 194, 7);
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgb(252, 250, 250);
+    outline: none;
+    border: none;
+    color: rgb(241, 72, 4);
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background: rgb(255, 224, 49);
+    border-radius: 15px;
+    font-size: 30px;
+    color: rgb(248, 7, 7);
+}
+input[type=submit]:hover{
+    background: greenyellow;
+    opacity: 0.7;
+}
